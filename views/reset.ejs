@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/stylesheets/reset.css">
+  <title>Forgot Password</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Reset Password</h1>
+    <form action="/users/reset/<%= token %>" method="POST">
+      <label for="new_password">Enter new password: </label>
+      <input id="new_password" type="password" name="new_password" />
+      <input type="submit" value="SUBMIT" />
+    </form>
+  </div>
+</body>
+
+</html>

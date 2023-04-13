@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/stylesheets/reset.css">
+  <title>Verify Email</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Verify Email</h1>
+    <form action="/users/verify/<%= email %>" method="POST">
+      <label for="otp">Please Enter Your OTP: </label>
+      <input id="otp" type="otp" name="otp" />
+      <input type="submit" value="SUBMIT" />
+    </form>
+  </div>
+</body>
+
+</html>

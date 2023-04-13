@@ -1,0 +1,36 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+input {
+  width: 75%;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 16px;
+}
+
+input[type="submit"] {
+  background-color: #0099ff;
+  color: white;
+  margin-top: 20px;
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+}
+
+form {
+  text-align: center;
+}

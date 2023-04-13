@@ -1,0 +1,6 @@
+/.env
+/node_modules
+bin
+config
+seeders
+package-lock.json

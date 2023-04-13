@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/stylesheets/verifyEmail.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Account Verification</h1>
+    <p>Hi <%= name %>,</p>
+    <p>Thank you for signing up with us. To complete your registration, please enter the following OTP or click the link below:</p>
+    <p class="otp"><%= otp %></p>
+    <a href="<%= link %>" class="link">Verify Email</a>
+    <p>This OTP and link will expire in 10 minutes.</p>
+    <p>If you did not sign up with us, please ignore this email.</p>
+    <p>Best regards,</p>
+    <p>BabySitting Team</p>
+  </div>
+</body>
+
+</html>
